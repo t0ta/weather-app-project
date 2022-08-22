@@ -1,0 +1,125 @@
+button {
+  display: block;
+  border: #37516f;
+  background: #9fd3c6;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 0 60px;
+  margin-bottom: 20px;
+}
+.cities-list li {
+  display: inline;
+  font-size: 15px;
+  font-weight: 200;
+  list-style: none;
+  padding-right: 20px;
+}
+.cities-list {
+  padding-left: 0;
+}
+.weather-app {
+  border: 1px solid #37516f;
+  border-radius: 20px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
+  font-family: "Nunito Sans", sans-serif;
+  color: #37516f;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+}
+.city-form {
+  border: #37516f;
+  background: #9fd3c6;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 200;
+  position: relative;
+  padding: 0 10px 0 10px;
+  top: -40px;
+}
+.current-city {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+.country {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: -20px;
+  padding-left: 0px;
+}
+.current-date {
+  font-size: 40px;
+  font-weight: 500;
+}
+.current-month {
+  font-size: 15px;
+  opacity: 0.8;
+  margin-top: -15px;
+}
+.current-time {
+  opacity: 0.8;
+}
+.date-specification li {
+  list-style: none;
+}
+.date-specification {
+  padding-left: 0;
+}
+.current-weather-emoji {
+  font-size: 70px;
+  margin: -15px -40px 0 0;
+}
+.current-temperature {
+  font-size: 40px;
+  font-weight: 500;
+}
+.units {
+  font-size: 20px;
+}
+.current-weather {
+  font-size: 15px;
+  margin-top: -15px;
+  opacity: 0.8;
+}
+.current-weather-specification {
+  font-size: 13px;
+  opacity: 0.8;
+}
+.forecast {
+  font-size: 13px;
+  opacity: 0.8;
+}
+.card {
+  background: #9fd3c6;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 0 3px;
+  text-align: center;
+  transition: 150ms ease-in-out;
+  border: 0;
+  padding: 10px 0 0 0;
+}
+.card-info {
+  list-style: none;
+  padding-left: 0;
+}
+.forecast-emoji {
+  font-size: 30px;
+  margin: 10px;
+}
+.card:hover {
+  opacity: 0.8;
+}
+.footer {
+  padding: 30px 20px 0 20px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.8;
+}
