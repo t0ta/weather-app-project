@@ -104,6 +104,7 @@ button {
   text-align: center;
   transition: 150ms ease-in-out;
   border: 0;
+  margin-bottom: 20px;
   padding: 10px 0 0 0;
 }
 .card-info {
@@ -118,7 +119,7 @@ button {
   opacity: 0.8;
 }
 .footer {
-  padding: 30px 20px 0 20px;
+  font-size: 13px;
   margin: 0 auto;
   text-align: center;
   opacity: 0.8;
